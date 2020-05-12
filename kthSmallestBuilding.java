@@ -12,7 +12,8 @@ public class Main
 	 for(int i=0;i<n;i++){
 	     arr[i]=sc.nextInt();
 	 }
-	 System.out.println(kthSmallestBuilding(arr,n,3));
+		int k=sc.nextInt();
+	 System.out.println(kthSmallestBuilding(arr,n,k));
 	}
 	
 	static int kthSmallestBuilding(int arr[],int n,int k){
